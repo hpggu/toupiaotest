@@ -1,5 +1,5 @@
 {
-  "name": "vote-server",
+  "name": "nba-vote-server",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -9,7 +9,6 @@
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "body-parser": "^1.20.2",
-    "sqlite3": "^5.1.6"  // 把 mysql2 替换成这个
-  },
-  "type": "commonjs"
+    "sqlite3": "^5.1.6"
+  }
 }
